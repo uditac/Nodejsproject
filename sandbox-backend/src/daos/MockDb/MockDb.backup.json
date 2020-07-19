@@ -2,82 +2,88 @@
   "images": [
     {
       "id": 1,
-      "title": "Preparation",
-      "description": "Before your operation you are summoned to a day at the the hospital where you'll meet doctors and a nurse. They'll tell you about the operation and how to prepare for the operation at home. They'll take a blood sample and maybe measure your heart with an ECG.",
-      "source": "images/image_10.png"
+      "title": "Bank Management System",
+      "description": "The Bank Account Management System is an application for maintaining a person's account in a bank. ... To develop a project for solving financial applications of a customer in banking environment in order to nurture the needs of an end banking user by providing various ways to perform banking tasks",
+      "source": "images/BankingSystem.jpg"
     },
     {
       "id": 2,
-      "title": "In the morning",
-      "description": "Man and woman at home before consultation, relaxing",
-      "source": "images/image_20.png"
+      "title": "Hospital Management System",
+      "description": "Hospital management systems allows us the ability to optimize and digitize all the processes within the institution, which will help to improve customer service, reduce process costs, streamline the search of medical records, bills, patients, doctors, etc.; thus, having a database of each module implemented.",
+      "source": "images/hospital-management-system.jpg"
     },
     {
       "id": 3,
-      "title": "Family",
-      "description": "You can have a family member with you at the hospital before and after the operation.",
-      "source": "images/image_30.png"
+      "title": "Insurance System",
+      "description": "Online Insurance management system is a web application which is developed for tracking the details of the insurance policy, customer details and company details. ",
+      "source": "images/InsuranceSystems.jpg"
     },
     {
       "id": 4,
-      "title": "Conversation",
-      "description": "You will have a conversation with a nurse about the upcoming operation.",
-      "source": "images/image_40.png"
+      "title": "Messaging System",
+      "description": "A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing. Distributed messaging is based on the concept of reliable message queuing.",
+      "source": "images/MessagingSystem.jpg"
     },
     {
       "id": 5,
-      "title": "Operation",
-      "description": "The nurse attaches some measurement devices to you, so she can monitor you during the operation.",
-      "source": "images/image_51.png"
+      "title": "Library Management System",
+      "description": "A Library management system is a software that uses to maintain the record of the library. It contains work like the number of available books in the library, the number of books are issued or returning or renewing a book or late fine charge record, etc.",
+      "source": "images/online-library-management-system.png"
     },
     {
       "id": 6,
-      "title": "Recovery room",
-      "description": "After the operation you will be taken to a recovery room. While you are there the staff will keep an eye on you to see how you are doing. In the recovery room you will have peace and quite and rest.",
-      "source": "images/image_61.png"
+      "title": "Pump Management System",
+      "description": "In Petrol pump management System use to maintain their sales detail, employee detail in files and folders. They use to keep the record of petrol and diesel  sold, inventry, Customers, etc in a register.  A daily register is maintained to keep track of sales.",
+      "source": "images/PumpSystem.jpg"
     },
     {
       "id": 7,
-      "title": "Check up",
-      "description": "We get the result of the operation after two weeks. Then we summon you to a talk at the hospital. We check up on how you are doing.",
-      "source": "images/image_70.png"
+      "title": "Hospitality Management System",
+      "description": "Book vacation home rentals and travel experiences for your next solo journey, family vacation, or business trip",
+      "source": "images/TravelandHospitalitySystem.jpg"
     }
   ],
   "documents": [
     {
       "id": 1,
-      "title": "Invoice1",
-      "description": "Invoice for Fitness",
+      "title": "Bank Management System",
+      "description": "The below document lists the features provided by our Bank Management System.",
       "source": "documents/invoice1.docx"
     },
     {
       "id": 2,
-      "title": "Invoice2",
-      "description": "Invoice for Internet",
+      "title": "Hospital Management System",
+      "description": "The below document lists the features provided by our Hospital Management System.",
       "source": "documents/invoice2.docx"
     },
     {
       "id": 3,
-      "title": "Invoice3",
-      "description": "Invoice for Apoteket",
+      "title": "Insurance Management System.",
+      "description": "The below document lists the features provided by our Insurance Management System.",
       "source": "documents/invoice3.docx"
     },
     {
       "id": 4,
-      "title": "Invoice4",
-      "description": "Invoice for Sygehus",
+      "title": "Messaging System",
+      "description": "The below document lists the features provided by our Messaging System.",
       "source": "documents/invoice4.docx"
     },
     {
       "id": 5,
-      "title": "Invoice5",
-      "description": "Invoice for Sports",
+      "title": "Library Management System",
+      "description": "The below document lists the features provided by our Library Management System.",
       "source": "documents/invoice5.docx"
     },
     {
       "id": 6,
-      "title": "Invoice6",
-      "description": "Invoice for School",
+      "title": "Pump Management System.",
+      "description": "The below document lists the features provided by our Pump Management System.",
+      "source": "documents/invoice6.docx"
+    },
+    {
+      "id": 6,
+      "title": "Hospitality Management System.",
+      "description": "The below document lists the features provided by our Hospitality Management System.",
       "source": "documents/invoice6.docx"
     }
   ]

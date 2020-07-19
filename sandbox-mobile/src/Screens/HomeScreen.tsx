@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, Animated, Easing } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Pink } from "../Constants";
 import { Colors } from "react-native/Libraries/NewAppScreen";
+import { ImageBackground } from "react-native";
+import Digital from "../../assets";
 
 export function HomeScreen() {
   // Keep reference to animation object
@@ -24,17 +26,27 @@ export function HomeScreen() {
     outputRange: ["0deg", "360deg"],
   });
 
+  const image = { uri: "https://reactjs.org/logo-og.png" };
   return (
     <View style={styles.screen}>
       <Text style={styles.textTitle}>
         <Text>Welcome to </Text>
-        <Text style={styles.textTitle}>EasyPiecy Publishing House</Text>
+        <Text style={styles.textTitle}>EasyPiecy Systems Aps</Text>
+        <Text style={styles.textBlue}>
+          - One Stop Solution for Digital Products
+        </Text>
       </Text>
 
-      <View style={styles.centerContainer}>
-        <Animated.View style={{ transform: [{ rotate: rotateData }] }}>
-          <Ionicons name="ios-infinite" size={120} color={Pink} />
-        </Animated.View>
+      <View style={styles.container}>
+        <ImageBackground source={image} style={styles.image}>
+          <Text style={styles.textBlue}>Inside</Text>
+        </ImageBackground>
+
+        <View style={styles.centerContainer}>
+          <Animated.View style={{ transform: [{ rotate: rotateData }] }}>
+            <Ionicons name="ios-infinite" size={120} color={Pink} />
+          </Animated.View>
+        </View>
       </View>
     </View>
   );
@@ -46,6 +58,10 @@ const styles = StyleSheet.create({
     marginTop: 100,
     alignItems: "center",
   },
+  container: {
+    flex: 1,
+    flexDirection: "column",
+  },
   centerContainer: {
     flex: 1,
     justifyContent: "center",
@@ -56,5 +72,10 @@ const styles = StyleSheet.create({
   },
   textBlue: {
     color: Pink,
+  },
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
   },
 });
