@@ -2,7 +2,7 @@
 
 This project contains a small Node web server and small React Native app.
 
-These two projects illustrate the technology we work with and can be used for familiarization and be used as a sandbox to play around with.
+These two projects illustrate the technology I want to work with.
 
 Both web server and mobile app uses the [TypeScript language](https://www.typescriptlang.org).
 
@@ -66,7 +66,7 @@ The app will connect to the running `sandbox-backend` and fetch some images and 
 
 The routes in the app are broken down into a Tab Navigator at the bottom with three tabs. Two of these tabs have a Stack Navigator with two screens each. See illustration below:
 
-![Illustration of screens and Navigators](https://bitbucket.org/visikon/sandbox/raw/611d2d0ffe18a48e563c6437a9623cb615929a5e/screens.png)
+
 
 The app consists of 5 screens:
 
@@ -80,6 +80,6 @@ The app consists of 5 screens:
 
 - Document stack:
   
-  - *Documents Screen* - 
+  - *Documents Screen* - fetches and shows a list of images from the backend
   
-  - *Documents Details* - 
+  - *Documents Details* - show selected document large and opens the document.
