@@ -1,4 +1,4 @@
-# Visikon Sandbox
+
 
 This project contains a small Node web server and small React Native app.
 
@@ -40,13 +40,10 @@ Then afterwards run `npm start`. This will open a web site showing debug informa
 
 The easiest way to run the app is to download the Expo app on your phone and scan the QR code shown in the Developer Tools:
 
-[Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
-[Apple App Store](https://apps.apple.com/us/app/expo-client/id982107779)
 
 Otherwise the app can be run in a browser window or through an Android Emulator. See link below for more information.
 
-https://docs.expo.io/versions/v37.0.0/
 
 #### Technologies
 
@@ -73,7 +70,7 @@ The routes in the app are broken down into a Tab Navigator at the bottom with th
 
 The app consists of 5 screens:
 
-- *Home Screen* with the infinite animation
+- *Home Screen* with infinite animation
 
 - Image stack with two screens
   
@@ -83,6 +80,6 @@ The app consists of 5 screens:
 
 - Document stack:
   
-  - *Documents Screen* - Stub
+  - *Documents Screen* - 
   
-  - *Documents Details* - Stub
+  - *Documents Details* - 
