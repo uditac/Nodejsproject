@@ -14,3 +14,4 @@ console.log("Using baseUrl:", baseUrl);
 
 export const Blue = "#166db1";
 export const Pink = "#EC7063";
+export const Black = "#000000";

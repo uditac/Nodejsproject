@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import { View, Text, StyleSheet, Animated, Easing } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { Pink } from "../Constants";
+import { Black, Blue, Pink } from "../Constants";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import { ImageBackground } from "react-native";
-import Digital from "../../assets";
+import { Linking } from "react-native";
 
 export function HomeScreen() {
   // Keep reference to animation object
@@ -33,20 +33,25 @@ export function HomeScreen() {
         <Text>Welcome to </Text>
         <Text style={styles.textTitle}>EasyPiecy Systems Aps</Text>
         <Text style={styles.textBlue}>
-          - One Stop Solution for Digital Products
+          {"\n"} One Stop Solution for Digital Products
         </Text>
       </Text>
 
-      <View style={styles.container}>
-        <ImageBackground source={image} style={styles.image}>
-          <Text style={styles.textBlue}>Inside</Text>
-        </ImageBackground>
+      <Text
+        style={styles.hyperlink}
+        onPress={() =>
+          Linking.openURL(
+            "https://www.proff.dk/firma/easypiecy-systems-aps/k%C3%B8benhavn-s/postordre-internethandel-andet/GSPS1SI10KA/"
+          )
+        }
+      >
+        About Us
+      </Text>
 
-        <View style={styles.centerContainer}>
-          <Animated.View style={{ transform: [{ rotate: rotateData }] }}>
-            <Ionicons name="ios-infinite" size={120} color={Pink} />
-          </Animated.View>
-        </View>
+      <View style={styles.centerContainer}>
+        <Animated.View style={{ transform: [{ rotate: rotateData }] }}>
+          <Ionicons name="ios-infinite" size={120} color={Pink} />
+        </Animated.View>
       </View>
     </View>
   );
@@ -58,24 +63,38 @@ const styles = StyleSheet.create({
     marginTop: 100,
     alignItems: "center",
   },
-  container: {
-    flex: 1,
-    flexDirection: "column",
-  },
+
   centerContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
   textTitle: {
-    fontSize: 20,
+    fontSize: 30,
+    color: Blue,
   },
   textBlue: {
+    color: Blue,
+    fontSize: 20,
+  },
+
+  textPink: {
     color: Pink,
+    fontSize: 20,
+  },
+  textBlack: {
+    color: Black,
+    fontSize: 20,
   },
   image: {
     flex: 1,
     resizeMode: "cover",
     justifyContent: "center",
+  },
+  hyperlink: {
+    ...StyleSheet.absoluteFillObject,
+    alignSelf: "flex-end",
+    marginTop: 1,
+    position: "absolute", // add if dont work with above
   },
 });
